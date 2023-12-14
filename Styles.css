@@ -1,56 +1,47 @@
 
 body{
 
-div{
-   background-color: #70517e;
-   padding: 10px 20px 30px 40px;
-   border: 2px solid black;
-   margin: 20px 60px 10px 50px;
-      
+      background-color: #B99470;
+
+      div{
+          background-color: #FEFAE0;
+          padding: 10px 20px 30px 40px;
+          border: 2px solid black;
+          margin: 20px 60px 10px 50px;
 }
 
-.maincontainer{
+
+      .maincontainer{
    
-   background: radial-gradient();
+         background-color: #A9B388;
 }
 
 
 
      h1 {
-        color: #3ae2b0;
-     }
-
-     h2 {
-        color: rgb(243, 210, 238);
-     }
-
-     h3 {
-        color: #A3C7D6;
-        text-align: center;
-     }
-     
-     background-color: #4e3c66;
-
-     h1 {
+        color: #e6ff04;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
      }
 
      h2 {
+        color: rgb(243, 210, 238);
         font-family: monospace;
+        font-size: 1.6em;
         text-align: center;
      }
 
      h3 {
-
-         font-family: monospace;
-         font-size: 1.5em;
+        color: #A3C7D6;
+        text-align: center;
+        font-family: monospace;
+        font-size: 1.7em;
      }
 
      p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
      }
 
      img {
@@ -59,47 +50,47 @@ div{
       max-width: 100%;
       height: auto;
       border-radius: 30px;
-  }
+     }
 
-      img:hover{
+    img:hover{
          transform: scale(1.1);
          transition: all 0.5s ease-in-out;
-      }
+     }
+
+    a:hover{
+         font-size: 1.5em;
+     }
+
+    h1:hover{
+      transform: scale(1.2);
+     }
 
 
-  a:hover{
-   font-size: 1.5em;
-  }
-
-  h1:hover{
-   transform: scale(1.2);
-  }
-
-
-   ol{
+    ol{
       font-family: monospace;
+      font-size: 20px;
 
-   }
+     }
    
 
-   #Listaproyectos {
+      #Listaproyectos {
       list-style-type: decimal;
 
    }
 
-
-   #listaredes{
+      #listaredes{
       list-style: square;
 
    }
 
-   .linksproyectos {
+      .linksproyectos {
       text-decoration: none;
       color: coral;
+      
    }
 
 
-   .linksredes{
+      .linksredes{
       text-decoration: none;
       color: rgb(255, 73, 209);
 
