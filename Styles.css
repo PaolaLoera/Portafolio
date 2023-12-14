@@ -1,0 +1,36 @@
+body{
+
+     h1 {
+        color: blueviolet;
+     }
+
+     h2 {
+        color: darkolivegreen;
+     }
+
+     h3 {
+        color: rgb(143, 64, 0);
+        text-align: center;
+     }
+
+     background-color: rgb(243, 213, 211);
+
+     h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+     }
+
+     h2 {
+        font-family: monospace;
+        text-align: center;
+     }
+
+     p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+     }
+
+
+
+
+}
