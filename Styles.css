@@ -1,19 +1,27 @@
+
 body{
 
+div{
+   background-color: #5F4487;
+   padding: 10px 20px 30px 40px;
+   border: 2px solid black;
+   margin: 20px 60px 10px 50px;
+}
+
      h1 {
-        color: blueviolet;
+        color: #3ae2b0;
      }
 
      h2 {
-        color: darkolivegreen;
+        color: rgb(243, 210, 238);
      }
 
      h3 {
-        color: rgb(143, 64, 0);
+        color: #A3C7D6;
         text-align: center;
      }
-
-     background-color: rgb(243, 213, 211);
+     
+     background-color: #3F3B6C;
 
      h1 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
