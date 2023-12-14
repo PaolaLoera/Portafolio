@@ -26,11 +26,16 @@ body{
      }
 
      p {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
      }
 
-
+     img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      height: auto;
+  }
 
 
 }
