@@ -1,22 +1,38 @@
+
 body{
 
+div{
+   background-color: #70517e;
+   padding: 10px 20px 30px 40px;
+   border: 2px solid black;
+   margin: 20px 60px 10px 50px;
+      
+}
+
+.maincontainer{
+   
+   background: radial-gradient();
+}
+
+
+
      h1 {
-        color: blueviolet;
+        color: #3ae2b0;
      }
 
      h2 {
-        color: darkolivegreen;
+        color: rgb(243, 210, 238);
      }
 
      h3 {
-        color: rgb(143, 64, 0);
+        color: #A3C7D6;
         text-align: center;
      }
-
-     background-color: rgb(243, 213, 211);
+     
+     background-color: #4e3c66;
 
      h1 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
      }
 
@@ -25,9 +41,16 @@ body{
         text-align: center;
      }
 
+     h3 {
+
+         font-family: monospace;
+         font-size: 1.5em;
+     }
+
      p {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
+        font-size: 1em;
      }
 
      img {
@@ -35,7 +58,50 @@ body{
       margin: auto;
       max-width: 100%;
       height: auto;
+      border-radius: 30px;
+  }
+
+      img:hover{
+         transform: scale(1.1);
+         transition: all 0.5s ease-in-out;
+      }
+
+
+  a:hover{
+   font-size: 1.5em;
+  }
+
+  h1:hover{
+   transform: scale(1.2);
   }
 
 
+   ol{
+      font-family: monospace;
+
+   }
+   
+
+   #Listaproyectos {
+      list-style-type: decimal;
+
+   }
+
+
+   #listaredes{
+      list-style: square;
+
+   }
+
+   .linksproyectos {
+      text-decoration: none;
+      color: coral;
+   }
+
+
+   .linksredes{
+      text-decoration: none;
+      color: rgb(255, 73, 209);
+
+   }
 }
