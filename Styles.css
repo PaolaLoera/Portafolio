@@ -1,19 +1,22 @@
 
 body{
 
-      background-color: #B99470;
+
+      background-image: url(https://wallpapercave.com/wp/wp4020868.jpg);
 
       div{
-          background-color: #FEFAE0;
+          background-color: rgb(254, 250, 224, 0.9);
           padding: 10px 20px 30px 40px;
-          border: 2px solid black;
           margin: 20px 60px 10px 50px;
+          border-radius: 10px;
 }
 
 
       .maincontainer{
    
-         background-color: #A9B388;
+         background-color: rgb(169, 179, 136, 0.9);
+         border-radius: 10px;
+
 }
 
 
@@ -22,7 +25,7 @@ body{
         color: #e6ff04;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
-     }
+      }
 
      h2 {
         color: rgb(243, 210, 238);
@@ -40,7 +43,7 @@ body{
 
      p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
+        text-align: justify;
         font-size: 1.2em;
      }
 
