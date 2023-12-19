@@ -9,48 +9,46 @@ body{
           padding: 10px 20px 30px 40px;
           margin: 20px 60px 10px 50px;
           border-radius: 10px;
-}
+   }
 
-
-      .maincontainer{
+    .maincontainer{
    
          background-color: rgb(169, 179, 136, 0.9);
          border-radius: 10px;
 
-}
+   }
 
-      nav {
+     nav {
          font-family: monospace;
-         font-size: 15px;
-      }
-
-
+         font-size: 12px;
+         text-align: justify;
+   }
 
      h1 {
         color: #e6ff04;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
-      }
+   }
 
      h2 {
         color: rgb(243, 210, 238);
         font-family: monospace;
         font-size: 1.6em;
         text-align: center;
-     }
+   }
 
      h3 {
         color: #A3C7D6;
         text-align: center;
         font-family: monospace;
         font-size: 1.7em;
-     }
+   }
 
      p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: justify;
         font-size: 1.2em;
-     }
+   }
 
      img {
       display: block;
@@ -58,29 +56,51 @@ body{
       max-width: 100%;
       height: auto;
       border-radius: 30px;
-     }
+   }
 
     img:hover{
          transform: scale(1.1);
          transition: all 0.5s ease-in-out;
-     }
+   }
 
     a:hover{
-         font-size: 1.5em;
-     }
+         font-size: 1.4em;
+   }
 
     h1:hover{
       transform: scale(1.2);
-     }
+   }
+
+    .navegacion:hover{
+      border-bottom: 2px solid #ffc400;
+   }
 
 
     ol{
       font-family: monospace;
-      font-size: 20px;
+      font-size: 17px;
 
-     }
+   }
 
+    table{
+    
+      border-collapse: collapse;
+      margin: auto;
+      
+      
+   }
 
+   th, td {
+      padding: 8px;
+      text-align: center;
+      border: 1px solid #c2c2c2;
+  }
+
+   ul{
+      text-align: center;
+   }
+
+   
       #Listaproyectos {
       list-style-type: decimal;
 
@@ -91,13 +111,18 @@ body{
 
    }
 
+      #divdatosdecontacto{
+         overflow: auto;
+   }
+
+      #ulistnavegacion{
+         list-style-type: none;
+   }
+
       .navegacion {
          text-decoration: none;
-      }
-
-      .navegacion:hover{
-         border-bottom: 2px solid #ffc400;
-      }
+         color: rgb(235, 44, 44);
+   }
 
 
       .linksproyectos {
