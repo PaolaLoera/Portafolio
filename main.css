@@ -1,0 +1,19 @@
+:root{
+    --bg-color: #f2f8f9;
+    --secodary: #54ABB2;
+    --highlight: #A5AAD6;
+    --light: #8B81C6;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4020868.jpg);
+    font-family: monospace;
+    text-align: center;
+}
+
+
+.container{
+    background-color: rgb(84, 171, 178, 0.95);
+    padding: 10px;
+    border-radius: 10px;
+}

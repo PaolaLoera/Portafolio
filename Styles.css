@@ -1,140 +1,71 @@
+.sticky-top {
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+}
 
-body{
-
-
-      background-image: url(https://wallpapercave.com/wp/wp4020868.jpg);
-
-      div{
-          background-color: rgb(254, 250, 224, 0.9);
-          padding: 10px 20px 30px 40px;
-          margin: 20px 60px 10px 50px;
-          border-radius: 10px;
-   }
-
-    .maincontainer{
+.navbar{
+   background-color: rgb(139, 129, 198, 0.9)
    
-         background-color: rgb(169, 179, 136, 0.9);
-         border-radius: 10px;
+}
 
-   }
+.nav-link{
+   color: aliceblue;
+}
 
-     nav {
-         font-family: monospace;
-         font-size: 12px;
-         text-align: justify;
-   }
+h3{
+   color: var(--bg-color);
+}
 
-     h1 {
-        color: #e6ff04;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: center;
-   }
+p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-     h2 {
-        color: rgb(243, 210, 238);
-        font-family: monospace;
-        font-size: 1.6em;
-        text-align: center;
-   }
+img{
+   display: block;
+   margin: auto;
+   width: 200px;
+   height: auto;
+   border-radius: 30px;
+}
 
-     h3 {
-        color: #A3C7D6;
-        text-align: center;
-        font-family: monospace;
-        font-size: 1.7em;
-   }
+img:hover{
+   transform: scale(1.1);
+   transition: all 0.5s ease-in-out;
+}
 
-     p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: justify;
-        font-size: 1.2em;
-   }
+#linksproyectos:hover{
+   font-size: 1.4em;
+   text-decoration: dotted;
+   color: yellow;
+}
 
-     img {
-      display: block;
-      margin: auto;
-      max-width: 100%;
-      height: auto;
-      border-radius: 30px;
-   }
+#linksredes:hover{
+   font-size: 1.4em;
+   text-decoration: dotted;
+   color: yellow;
+}
 
-    img:hover{
-         transform: scale(1.1);
-         transition: all 0.5s ease-in-out;
-   }
+.linksproyectos{
+   text-decoration: none;
+   color: var(--light);
+}
 
-    a:hover{
-         font-size: 1.4em;
-   }
+.linksredes{
+   text-decoration: none;
+   color: var(--light);
+}
 
-    h1:hover{
-      transform: scale(1.2);
-   }
+#ulproyectos{
+   list-style-type: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    .navegacion:hover{
-      border-bottom: 2px solid #ffc400;
-   }
+#ulredes{
+   list-style-type: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-
-    ol{
-      font-family: monospace;
-      font-size: 17px;
-
-   }
-
-    table{
-    
-      border-collapse: collapse;
-      margin: auto;
-      
-      
-   }
-
-   th, td {
-      padding: 8px;
-      text-align: center;
-      border: 1px solid #c2c2c2;
-  }
-
-   ul{
-      text-align: center;
-   }
-
-   
-      #Listaproyectos {
-      list-style-type: decimal;
-
-   }
-
-      #listaredes{
-      list-style: square;
-
-   }
-
-      #divdatosdecontacto{
-         overflow: auto;
-   }
-
-      #ulistnavegacion{
-         list-style-type: none;
-   }
-
-      .navegacion {
-         text-decoration: none;
-         color: rgb(235, 44, 44);
-   }
-
-
-      .linksproyectos {
-      text-decoration: none;
-      color: coral;
-      
-   }
-
-
-      .linksredes{
-      text-decoration: none;
-      color: rgb(255, 73, 209);
-
-   }
+#tabladatoscontacto{
+   overflow: auto;
 }
